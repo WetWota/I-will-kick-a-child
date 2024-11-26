@@ -1,1 +1,2 @@
-ID,name,account_type,date_created
+ID,name,password,account_type,date_created
+Wetwota,yes,123123123,student,2024-11-26 05:25:11
