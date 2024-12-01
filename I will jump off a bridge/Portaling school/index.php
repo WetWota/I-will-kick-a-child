@@ -1,6 +1,7 @@
 <?php
 // Start output buffering
 ob_start();
+error_reporting( ~E_DEPRECATED);
 ?>
 
 <!DOCTYPE html>

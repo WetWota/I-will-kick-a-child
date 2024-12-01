@@ -81,12 +81,28 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Posts</title>
-    <link rel="stylesheet" href="header/styles.css">
+    <link rel="stylesheet" href="css/Header.css">
     <link rel="stylesheet" href="css/Home.css">
     <script src="js/Home.script.js" defer></script>
 </head>
 <body>
-    <?php include 'header/header.html'; ?>
+<div class="header">
+        <h1>Welcome to the Home Page</h1>
+    </div>
+    <div class="container">
+        <header>   
+            <nav>
+            <h2><?php echo htmlspecialchars($_SESSION['account_type']); ?></h2>
+            <h2><?php echo htmlspecialchars($_SESSION['username']); ?></h2>
+                <ul>
+                    <li><a href="Home.php">Home</a></li>
+                    <li><a href="calendar/Calendar.php">Calendar</a></li>
+                    <li><a href="Credit.html">Credits</a></li>
+                    <li><a href="logout.php">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <div class="pcontainer">
         <div id="post-feed">
             <h1>Posts</h1>
