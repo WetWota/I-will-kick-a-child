@@ -1,0 +1,96 @@
+body {
+    background-color: #e0f7fa; /* Light blue background */
+    color: #333; /* Dark text color for contrast */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    background-color: #3156a7; /* Slightly darker blue for header */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Kanit, sans-serif; 
+}
+
+.header h1{
+    font-family: Kanit, sans-serif; 
+    font-size: 250%;
+}
+
+.container {
+    background-color: #cbd5e8; /*Off White background for content */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.container ul{
+    text-align: center;
+}
+
+.container a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.container a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.pcontainer{
+    background-color: rgba(80, 84, 91, 0); /*Off White background for content */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+
+
+.pcontainer h1{
+    text-align: center;
+}
+
+#post-feed{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pcontainer .post{
+    background-color: #cbd5e8;
+    scale: auto;
+    padding: 2px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.fixed-textarea{
+        width: 97.7%; /* Set a fixed width */
+        height: 100px; /* Set a fixed height */
+        /*resize: none; /* Disable resizing */
+        padding: 10px; /* Add some padding */
+        border: 1px solid #ccc; /* Border style */
+        border-radius: 4px; /* Rounded corners */
+        font-size: 16px; /* Font size */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}

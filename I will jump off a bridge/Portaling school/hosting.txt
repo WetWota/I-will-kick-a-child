@@ -1,0 +1,3 @@
+php -S localhost:8000
+
+    cd C:\Users\User\Desktop\yes\I-will-kick-a-child-main\I will jump off a bridge\Portaling school
