@@ -1,0 +1,26 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pcontainer {
+    width: 80%;
+    margin: auto;
+}
+
+.toggle-comments {
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-comments:hover {
+    background-color: #0056b3;
+}
+
+.comment-form, .comments {
+    margin-top: 10px;
+}

@@ -81,25 +81,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Posts</title>
-    <link rel="stylesheet" href="header/styles.css"> <!-- Optional CSS file -->
-    <style>
-        .toggle-comments {
-            margin: 10px 0;
-            padding: 5px 10px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        .toggle-comments:hover {
-            background-color: #0056b3;
-        }
-
-        .comment-form, .comments {
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="header/styles.css">
+    <link rel="stylesheet" href="css/Home.css">
+    <script src="js/Home.script.js" defer></script>
 </head>
 <body>
     <?php include 'header/header.html'; ?>
@@ -149,26 +133,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </div>
     </div>
-
-    <script>
-    function toggleComments(postId) {
-        // Get the comment form and comments section for the specific post
-        var commentForm = document.getElementById('comment-form-' + postId);
-        var commentsSection = document.getElementById('comments-' + postId);
-
-        // Toggle visibility
-        if (commentForm.style.display === "none") {
-            commentForm.style.display = "block"; // Show comment form
-        } else {
-            commentForm.style.display = "none"; // Hide comment form
-        }
-
-        if (commentsSection.style.display === "none") {
-            commentsSection.style.display = "block"; // Show comments
-        } else {
-            commentsSection.style.display = "none"; // Hide comments
-        }
-    }
-    </script>
 </body>
 </html>
