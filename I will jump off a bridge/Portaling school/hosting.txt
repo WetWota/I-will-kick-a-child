@@ -1,3 +1,0 @@
-php -S localhost:8000
-
-cd C:\Users\Nathan\Desktop\Code\Web\I will jump off a bridge\Portaling school
